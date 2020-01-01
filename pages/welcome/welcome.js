@@ -1,7 +1,7 @@
 // pages/welcome/welcome.js
 Page({
   onTap: function () {
-    // wx.redirectTo({url: '../posts/posts'})
+    wx.redirectTo({url: '../posts/posts'})
   },
   /**
    * 页面的初始数据
