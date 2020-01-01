@@ -1,4 +1,4 @@
-<import src="temp.wxml"/>
+<import src="post-item/post-item-template.wxml"/>
 
 <view>
     <swiper class="swiper" indicator-dots autoplay interval="2000">
@@ -13,7 +13,7 @@
         </swiper-item>
     </swiper>
 
-    <block class="post-container" wx:for="{{list}}" wx:key="index" hidden="{{1 + 1 > 3}}">
+    <block wx:for="{{list}}" wx:key="index" hidden="{{1 + 1 > 3}}">
         <template is="postsItem" data="{{item}}"/>
     </block>
 </view>
