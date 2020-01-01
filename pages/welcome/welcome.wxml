@@ -3,7 +3,7 @@
   <image class="user-avatar" src="/images/1.jpg"></image>
   <text class="user-name">Hello, 2020 Year!</text>
   <view class="moto-container">
-    <text class="moto" bind:tap="onTap">开启小程序之旅</text>
+    <text class="moto" catch:tap="onTap">开启小程序之旅</text>
   </view>
 </view>
 
