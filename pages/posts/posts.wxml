@@ -14,6 +14,8 @@
     </swiper>
 
     <block wx:for="{{list}}" wx:key="index" hidden="{{1 + 1 > 3}}">
-        <template is="postsItem" data="{{...item}}"/>
+        <view bind:tap="toDetail" data-id="{{item.id}}">
+            <template is="postsItem" data="{{...item}}"/>
+        </view>
     </block>
 </view>

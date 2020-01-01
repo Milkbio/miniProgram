@@ -1,0 +1,21 @@
+<!--pages/posts/post-detail/post-detail.wxml-->
+<view class="container">
+    <image class="banner" src="{{detail.postImg}}"></image>
+    <view class="author-date">
+        <image class="avatar" src="{{detail.postAuthorUrl}}"></image>
+        <text class="author">{{detail.author}}</text>
+        <text class="const-date">发表于</text>
+        <text class="date">{{detail.date}}</text>
+    </view>
+    <text class="title">{{detail.title}}</text>
+    <view class="bottom-content">
+        <view class="operate">
+            <view class="line"></view>
+            <image class="icon" src="/images/icon/icon-favor.png"></image>
+            <image class="icon" src="/images/icon/icon-say.png"></image>
+        </view>
+        <text class="content">
+            {{detail.detail}}
+        </text>
+    </view>
+</view>

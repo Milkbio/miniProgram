@@ -1,48 +1,78 @@
 let list = [
     {
         postAuthorUrl: '/images/avatar/avatar1.jpg',
-        date: "Sep 18 2016",
-        title: "正是虾肥蟹壮时",
+        date: "Jan 02 2020",
+        title: "元旦快乐",
+        author: "高山",
         postImg: "/images/posts/posts1.jpg",
-        content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事，用林妹妹的话说就是“敖封嫩玉双双满”。",
+        content: "用一颗满怀感恩和祝福的心,与你共同跨过2019;新的一年,珍惜该珍惜的人,感恩所有帮助过我的人,无论亲人还是陌生人,2020,因为有你,更加美好",
         viewNum: 112,
-        collectNum: 96
+        collectNum: 96,
+        detail: '一、元旦到了：愿你抱着平安，拥着健康，揣着幸福，携着快乐，搂着温馨，带着甜蜜，牵着财运，拽着吉祥，迈入新年，快乐度过每一天！\n' +
+            '\n' +
+            '二、元旦来临送温暖，我把祝福连一连，愿好运连连财气多，福气连连幸运多，喜气连连顺心多，快乐连连欢乐多。祝元旦快乐！\n' +
+            '\n' +
+            '三、元旦已至，问候由心而起，祝福款款而来，新一年，新气象，愿朋友2020年生活美美满满，事业红红火火，财源滚滚而来，幸福永永远远！\n' +
+            '\n',
+        id: 10000
     },
     {
-        postAuthorUrl: '/images/avatar/avatar1.jpg',
-        date: "Sep 18 2016",
-        title: "正是虾肥蟹壮时",
-        postImg: "/images/posts/posts1.jpg",
-        content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事，用林妹妹的话说就是“敖封嫩玉双双满”。",
+        postAuthorUrl: '/images/avatar/avatar2.jpg',
+        date: "Oct 01 2019",
+        title: "我的我的祖国",
+        author: "张明",
+        postImg: "/images/posts/posts2.jpg",
+        content: "国庆节是由一个国家制定的用来纪念国家本身的法定假日。它们通常是这个国家的独立、宪法的签署、元首诞辰或其他有重大纪念意义的周年纪念日；也有些是这个国家守护神的圣人节。",
         viewNum: 112,
-        collectNum: 96
+        collectNum: 96,
+        detail: "国庆节是由一个国家制定的用来纪念国家本身的法定假日。它们通常是这个国家的独立、宪法的签署、元首诞辰或其他有重大纪念意义的周年纪念日；也有些是这个国家守护神的圣人节。\n" +
+            "虽然绝大部分国家都有类似的纪念日，但是由于复杂的政治关系，部分国家的这一节日不能够称为国庆日，比如美国只有独立日，没有国庆日，但是两者意义相同。\n" +
+            "而中国古代把皇帝即位、诞辰称为“国庆”。如今，中国国庆节特指中华人民共和国正式成立的纪念日10月1日。\n" +
+            "世界历史上最悠久的国庆节是圣马力诺的国庆节，远在公元301年，圣马力诺就把9月3日定为自己的国庆节。"
+        ,
+        id: 10001
     },
     {
-        postAuthorUrl: '/images/avatar/avatar1.jpg',
-        date: "Sep 18 2016",
+        postAuthorUrl: '/images/avatar/avatar3.jpg',
+        date: "Sep 18 2018",
         title: "正是虾肥蟹壮时",
-        postImg: "/images/posts/posts1.jpg",
+        author: "利克拉玛",
+        postImg: "/images/posts/posts3.jpg",
         content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事，用林妹妹的话说就是“敖封嫩玉双双满”。",
         viewNum: 112,
-        collectNum: 96
+        collectNum: 96,
+        detail: "2020年元旦清晨，第24届西湖冬季铁人三项赛在杭州西湖苏堤举行，曾走遍长征路的龚建平带领70多位铁人三项爱好者迎着新年第一缕阳光跃入西湖，在冰冷的湖水中举着“祖国新年好”的标牌向全国人民问候新年。接着，爱好者们往返苏堤长跑5000多米，然后蹬上自行车围绕西湖景区骑行20000余米，最后攀登北高峰，活动全程约30000米。",
+        id: 10002
     },
     {
-        postAuthorUrl: '/images/avatar/avatar1.jpg',
-        date: "Sep 18 2016",
-        title: "正是虾肥蟹壮时",
-        postImg: "/images/posts/posts1.jpg",
-        content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事，用林妹妹的话说就是“敖封嫩玉双双满”。",
+        postAuthorUrl: '/images/avatar/avatar4.jpg',
+        date: "Mar 01 2017",
+        title: "西湖美景三月天",
+        author: "Edylice",
+        postImg: "/images/posts/posts4.jpg",
+        content: "西湖，位于浙江省杭州市西湖区龙井路1号，杭州市区西部，景区总面积49平方千米，汇水面积为21.22平方千米，湖面面积为6.38平方千米。西湖南、西、北三面环山，湖中白堤、苏堤",
         viewNum: 112,
-        collectNum: 96
+        collectNum: 96,
+        detail: "严西湖路边立着路灯\n" +
+            "\n" +
+            "楚天都市报1月1日讯（记者张皓）今日，市民黄先生反映，新年伊始，他家门口严西湖路上的路灯，不知何时能亮起来。\n" +
+            "\n" +
+            "黄先生家住花山万科紫悦湾。他说，小区分三期，有数千户业主，房屋交付几年了，严西湖路是进出小区唯一道路，一直没有路灯，晚上黑灯瞎火的，十分不便。\n" +
+            "\n" +
+            "今日，楚天都市报记者来到严西湖路探访，这条路长约一公里，路边除了万科紫悦湾小区，对面是联投花山郡小区，靠湖边路的尽头，还有一家养老机构“泰康之爱·楚园”。",
+        id: 10003
     },
     {
-        postAuthorUrl: '/images/avatar/avatar1.jpg',
-        date: "Sep 18 2016",
-        title: "正是虾肥蟹壮时",
-        postImg: "/images/posts/posts1.jpg",
+        postAuthorUrl: '/images/avatar/avatar5.jpg',
+        date: "May 01 2016",
+        title: "劳动最光荣",
+        author: "雷锋",
+        postImg: "/images/posts/posts5.jpg",
         content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事，用林妹妹的话说就是“敖封嫩玉双双满”。",
         viewNum: 112,
-        collectNum: 96
+        collectNum: 96,
+        detail: "国际劳动节又称“五一国际劳动节”、“国际示威游行日”（International Workers' Day或者May Day），是世界上80多个国家的全国性节日。定在每年的五月一日。它是全世界劳动人民共同拥有的节日。1889年7月，由恩格斯领导的第二国际在巴黎举行代表大会。会议通过决议，规定1890年5月1日国际劳动者举行游...",
+        id: 10004
     }]
 
 module.exports = {

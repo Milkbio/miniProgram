@@ -1,20 +1,23 @@
-// pages/posts/posts.js
-const {list} = require('../../data/posts-data')
-
+// pages/posts/post-detail/post-detail.js
+const {list} = require('../../../data/posts-data')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      indicatorDots: true,
-      list
+    detail: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const {id} = options
+    const detail = list.find(x => x.id == id)
+    this.setData({
+        detail
+    })
   },
 
   /**
@@ -56,7 +59,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    console.log('reach bottom')
+
   },
 
   /**
@@ -64,10 +67,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  toDetail (e) {
-    wx.navigateTo({
-        url: `./post-detail/post-detail?id=${e.currentTarget.dataset.id}`
-    })
   }
 })
